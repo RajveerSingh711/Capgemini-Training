@@ -1,5 +1,7 @@
 📘 Capgemini Training – Java Practice Programs
 📅 Training Progress Summary
+
+
 24 December
 
 Practiced basic Java programs.
@@ -23,3 +25,4 @@ Learned how to take user input using the Scanner class.
 Performed basic arithmetic operations.
 
 Understood operator precedence and how expressions are evaluated in Java.
+
