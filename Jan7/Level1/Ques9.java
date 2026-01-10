@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*Write a program to take 2 numbers and print their quotient and reminder
 Hint =>

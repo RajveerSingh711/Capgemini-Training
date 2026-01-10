@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*Write a program to find the smallest and the largest of the 3 numbers.
 Hint =>

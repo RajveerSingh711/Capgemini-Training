@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*Level 1 Practice Programs
 Write a program to input the Principal, Rate, and Time values and calculate Simple Interest.

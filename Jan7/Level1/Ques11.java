@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*Write a program calculate the wind chill temperature given the temperature and wind speed
 Hint =>

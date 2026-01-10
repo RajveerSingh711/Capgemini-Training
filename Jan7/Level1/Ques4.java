@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*An athlete runs in a triangular park with sides provided as input by the user in meters. If the athlete wants to complete a 5 km run, then how many rounds must the athlete complete
 Hint =>

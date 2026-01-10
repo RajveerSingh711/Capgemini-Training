@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*Create a program to find the maximum number of handshakes among N number of students.
 Hint =>

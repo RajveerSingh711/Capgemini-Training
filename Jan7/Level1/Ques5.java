@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*Write a program to check whether a number is positive, negative, or zero.
 Hint => Get integer input from the user. Write a Method to return -1 for negative number, 1 for positive number and 0 if number is zero

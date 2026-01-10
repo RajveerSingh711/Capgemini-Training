@@ -1,4 +1,4 @@
-package Level2;
+package Jan7.Level2;
 
 /*Create a program to find the factors of a number taken as user input, store the factors in an array, and display the factors. Also find the sum, sum of square of factors and product of the factors and display the results
 Hint =>
@@ -26,31 +26,27 @@ public class Ques1 {
     }
     public static int sum(int[] arr){
         int s=0;
-        for (int x:arr) s+=x;
+        for(int x:arr) s+=x;
         return s;
     }
     public static long product(int[] arr) {
-        long p = 1;
-        for (int x : arr) p *= x;
+        long p=1;
+        for (int x:arr) p*=x;
         return p;
     }
-
     public static double sumOfSquares(int[] arr) {
-        double s = 0;
-        for (int x : arr) s += Math.pow(x, 2);
+        double s=0;
+        for(int x:arr) s+=Math.pow(x,2);
         return s;
     }
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-
-        int[] factors = findFactors(num);
-
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        int[] factors=findFactors(num);
         System.out.println("Factors:");
-        for (int f : factors) System.out.print(f + " ");
-        System.out.println("\nSum = " + sum(factors));
-        System.out.println("Sum of Squares = " + sumOfSquares(factors));
-        System.out.println("Product = " + product(factors));
+        for (int f:factors) System.out.print(f+" ");
+        System.out.println("\nSum = "+sum(factors));
+        System.out.println("Sum of Squares = "+sumOfSquares(factors));
+        System.out.println("Product = "+product(factors));
     }
 }

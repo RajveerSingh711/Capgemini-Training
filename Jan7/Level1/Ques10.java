@@ -1,4 +1,4 @@
-package Level1;
+package Jan7.Level1;
 
 /*Create a program to divide N number of chocolates among M children. Print the number of chocolates each child will get and also the remaining chocolates
 Hint =>
