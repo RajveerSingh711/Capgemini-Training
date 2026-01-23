@@ -13,7 +13,7 @@ Instanceof:
 */
 
 public class BankAccount{
-    static String bankName="Capgemini National Bank";
+    static String bankName="Central National Bank";
     private static int total=0;
     static void getTotalAccounts(){
         System.out.println("Total Accounts: "+total);
