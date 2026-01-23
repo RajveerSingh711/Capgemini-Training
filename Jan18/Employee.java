@@ -15,7 +15,7 @@ Instanceof
 import java.util.*;
 
 public class Employee {
-    static String companyName="Capgemini";
+    static String companyName="Tech Solutions Inc.";
     private static int totalEmployees=0;
     static void displayTotalEmployees(){
         System.out.println("Total Employees: "+totalEmployees);
