@@ -1,0 +1,22 @@
+package Feb1;
+
+/*Symmetric Difference
+Find the symmetric difference (elements present in either set but not in both) of two sets.
+Example:
+Set1: {1, 2, 3}, Set2: {3, 4, 5} → Output: {1, 2, 4, 5}.
+*/
+
+import java.util.*;
+
+public class Ques8 {
+    public static void main(String[] args){
+        Set<Integer> set1=new HashSet<>(Arrays.asList(1,2,3));
+        Set<Integer> set2=new HashSet<>(Arrays.asList(3,4,5));
+        Set<Integer> union=new HashSet<>(set1);
+        union.addAll(set2);
+        Set<Integer> intersection=new HashSet<>(set1);
+        intersection.retainAll(set2);
+        union.removeAll(intersection);
+        System.out.println(union);
+    }
+}
